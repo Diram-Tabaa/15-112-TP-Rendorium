@@ -34,7 +34,7 @@ class Renderer(QObject):
         si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
 
         os.chdir(pathlib.Path().absolute())
-        self.blend = subprocess.Popen("blender/blender.exe -b --python br_test2.py", startupinfo=si, stdout=subprocess.PIPE)
+        self.blend = subprocess.Popen("blender/blender.exe -b --python blender.py", startupinfo=si, stdout=subprocess.PIPE)
         line = self.blend.stdout.readline()
         #https://stackoverflow.com/a/803421
         while line:
@@ -119,7 +119,8 @@ class Main(QMainWindow):
         self.splash = Splash()
         self.MainWidget = QFrame()
         self.icon = QIcon("icon2.png")
-
+        self.firstFile = open("FILE_BLEND.data","w")
+        self.firstFile.close()
         # self.grid.addWidget(self.fr1,0,0)
         self.setWindowIcon(self.icon)
         self.setWindowTitle("Rendorium alpha 0.11 (open-source)")
