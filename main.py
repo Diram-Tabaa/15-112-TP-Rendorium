@@ -496,8 +496,7 @@ import a .blend file to start""")
                                                                            en)
             TEntry.mouseReleaseEvent = lambda ev, en=TEntry: self.onEntryLeave(
                 ev, en)
-            TEntry.mouseDoubleClickEvent = lambda ev,
-                                                  en=TEntry: self.onEntryDblClick(
+            TEntry.mouseDoubleClickEvent = lambda ev, en=TEntry: self.onEntryDblClick(
                 ev, en)
 
             TEntry.setAlignment(Qt.AlignCenter)
@@ -1164,8 +1163,7 @@ import a .blend file to start""")
         TEntry.mouseMoveEvent = lambda ev, en=TEntry: self.onEntryDrag(ev, en)
         TEntry.mouseReleaseEvent = lambda ev, en=TEntry: self.onEntryLeave(ev,
                                                                            en)
-        TEntry.mouseDoubleClickEvent = lambda ev,
-                                              en=TEntry: self.onEntryDblClick(
+        TEntry.mouseDoubleClickEvent = lambda ev, en=TEntry: self.onEntryDblClick(
             ev, en)
 
     def OpenFileDiag(self):
