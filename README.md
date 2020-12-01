@@ -13,8 +13,8 @@ download the files from github.com as .zip, then go to blender folder in the rep
 
 #### Method 2
 if you have access to git bash, type in the following command:
--`git lfs install` if you dont have git lfs already
--`git lfs clone https://github.com/Diram-Tabaa/15-112-TP-Rendorium.git` to clone the reporistory
+- `git lfs install` if you dont have git lfs already
+- `git lfs clone https://github.com/Diram-Tabaa/15-112-TP-Rendorium.git` to clone the reporistory
 
 ### Running the program
 first of all, download run the following commands in the shell of your IDE (Pyzo or pyCharm preferred) to download the required libraries
