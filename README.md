@@ -19,7 +19,7 @@ if you have access to git bash, type in the following command:
 ### Running the program
 first of all, download run the following commands in the shell of your IDE (Pyzo or pyCharm preferred) to download the required libraries
 
-`pip install PyQt5`
+`pip install PyQt5` \n
 `pip install ffmpeg-python`
 
 
