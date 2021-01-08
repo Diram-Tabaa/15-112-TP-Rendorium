@@ -4,6 +4,11 @@
  
  The program has been tested to work in python 3.7.7; other versions of python have not been tested.
  
+## Features
+### Material Settings
+Rendorium allows users to set different materials to the objects in the scene, including but not limited to: subsurface, glass, metallic and Glossy.
+Users have the option to set custom colors
+ 
  
 ## Installation guide
 ### Downloading/Cloning
@@ -25,6 +30,8 @@ first of all, download run the following commands in the shell of your IDE (Pyzo
 
 
 after those libraries are installed, run `main.py` to start the program.
+
+
 
 **DO NOT DISPLACE `blender` FOLDER**
 
