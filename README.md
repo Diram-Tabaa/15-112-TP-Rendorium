@@ -5,11 +5,37 @@
  The program has been tested to work in python 3.7.7; other versions of python have not been tested.
  
 ## Features
+
+### Importing Blender Files
+
+![](/preview/import.gif)
 ### Material Settings
 Rendorium allows users to set different materials to the objects in the scene, including but not limited to: subsurface, glass, metallic and Glossy.
 Users have the option to set custom colors
-![](/preview/pan.gif)
+
+![](/preview/material.gif)
  
+### Transformation
+
+![](/preview/scaleProp.gif)
+
+### Adding Objects
+
+![](/preview/addObj.gif)
+
+### Navigating around the scene
+
+![](/preview/pan.gif)
+
+### Rendering Animations
+
+![](/preview/actualAnim.gif)
+
+### Rigid Body
+
+![](/preview/rigidBody.gif)
+
+
  
 ## Installation guide
 ### Downloading/Cloning
