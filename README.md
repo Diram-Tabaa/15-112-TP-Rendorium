@@ -9,6 +9,11 @@
 ### Importing Blender Files
 
 ![](/preview/import.gif)
+
+### Dark/Light Theme
+
+![](/preview/darkTheme.gif)
+
 ### Material Settings
 Rendorium allows users to set different materials to the objects in the scene, including but not limited to: subsurface, glass, metallic and Glossy.
 Users have the option to set custom colors
